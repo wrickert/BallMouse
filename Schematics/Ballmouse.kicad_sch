@@ -4367,6 +4367,261 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "WS2812B_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "WS2812B"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812B_1_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2812B_1_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812B_1_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "gkl_power:+5V"
 			(power)
 			(pin_names
@@ -5039,7 +5294,7 @@
 		(uuid "932eece7-a3d3-469a-9124-4d753d0d35e3")
 	)
 	(junction
-		(at 71.12 146.05)
+		(at 92.71 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "979bf913-c8df-47b0-bbcb-375b35ad68ea")
@@ -5124,7 +5379,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 165.1) (xy 87.63 161.29)
+			(xy 109.22 184.15) (xy 109.22 180.34)
 		)
 		(stroke
 			(width 0)
@@ -5204,7 +5459,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 143.51) (xy 88.9 134.62)
+			(xy 115.57 118.11) (xy 123.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a0e2891-73b1-49f8-98b7-7d0ea65cbd26")
+	)
+	(wire
+		(pts
+			(xy 110.49 162.56) (xy 110.49 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5221,6 +5486,16 @@
 			(type default)
 		)
 		(uuid "1b9eb6cb-5eee-4c98-b7ca-fa4d51fc1256")
+	)
+	(wire
+		(pts
+			(xy 107.95 125.73) (xy 107.95 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e4e7a9e-8a83-4eca-b87d-1dd2d92efbf3")
 	)
 	(wire
 		(pts
@@ -5274,7 +5549,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 153.67) (xy 81.28 153.67)
+			(xy 104.14 172.72) (xy 102.87 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5334,7 +5609,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 151.13) (xy 71.12 153.67)
+			(xy 92.71 170.18) (xy 92.71 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5344,7 +5619,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 166.37) (xy 132.08 163.83)
+			(xy 153.67 185.42) (xy 153.67 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5364,7 +5639,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 165.1) (xy 87.63 165.1)
+			(xy 106.68 184.15) (xy 109.22 184.15)
 		)
 		(stroke
 			(width 0)
@@ -5384,13 +5659,23 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 148.59) (xy 93.98 148.59)
+			(xy 118.11 167.64) (xy 115.57 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "46c8fd92-4823-4cb8-91e0-3f1f68058ae7")
+	)
+	(wire
+		(pts
+			(xy 85.09 107.95) (xy 85.09 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a089744-b254-4dfc-a05c-f09bcccca69b")
 	)
 	(wire
 		(pts
@@ -5424,6 +5709,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 125.73) (xy 130.81 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5464da77-710e-4e2d-be7e-c2d6239471e8")
+	)
+	(wire
+		(pts
 			(xy 29.21 63.5) (xy 29.21 66.04)
 		)
 		(stroke
@@ -5444,7 +5739,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 151.13) (xy 60.96 153.67)
+			(xy 82.55 170.18) (xy 82.55 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5474,6 +5769,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 125.73) (xy 153.67 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64366182-fef9-49a6-a47c-6346b47b1d32")
+	)
+	(wire
+		(pts
 			(xy 50.8 49.53) (xy 64.77 49.53)
 		)
 		(stroke
@@ -5494,7 +5799,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 133.35) (xy 81.28 153.67)
+			(xy 102.87 152.4) (xy 102.87 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5634,6 +5939,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 107.95) (xy 130.81 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ce021c-6fea-45a5-ae2a-2b66d6f49712")
+	)
+	(wire
+		(pts
 			(xy 185.42 76.2) (xy 185.42 74.93)
 		)
 		(stroke
@@ -5644,7 +5959,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 146.05) (xy 71.12 146.05)
+			(xy 82.55 165.1) (xy 92.71 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5774,7 +6089,27 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 140.97) (xy 93.98 140.97)
+			(xy 92.71 118.11) (xy 100.33 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a690c456-2221-4cd4-88f3-806b468a0669")
+	)
+	(wire
+		(pts
+			(xy 107.95 107.95) (xy 107.95 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a997c988-c53e-4893-92e3-6ee203cf4254")
+	)
+	(wire
+		(pts
+			(xy 118.11 160.02) (xy 115.57 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5794,7 +6129,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 146.05) (xy 96.52 146.05)
+			(xy 92.71 165.1) (xy 118.11 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5814,7 +6149,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 153.67) (xy 92.71 153.67)
+			(xy 115.57 172.72) (xy 114.3 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5841,6 +6176,16 @@
 			(type default)
 		)
 		(uuid "b50bf45a-8d66-4021-b594-0290336f9bef")
+	)
+	(wire
+		(pts
+			(xy 138.43 118.11) (xy 146.05 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6b87e8b-d167-416c-8ad0-5070bb3d3af2")
 	)
 	(wire
 		(pts
@@ -5924,13 +6269,23 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 143.51) (xy 88.9 143.51)
+			(xy 118.11 162.56) (xy 110.49 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d64ea3bf-ba16-477f-8210-a4f295f88c4d")
+	)
+	(wire
+		(pts
+			(xy 85.09 125.73) (xy 85.09 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6f63c09-6188-46ec-9997-9e9a8dee2194")
 	)
 	(wire
 		(pts
@@ -5954,6 +6309,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 107.95) (xy 153.67 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd5ac115-efba-44dd-b6d7-badd46ad4349")
+	)
+	(wire
+		(pts
 			(xy 127 91.44) (xy 130.81 91.44)
 		)
 		(stroke
@@ -5974,7 +6339,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 140.97) (xy 93.98 134.62)
+			(xy 115.57 160.02) (xy 115.57 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6044,7 +6409,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 163.83) (xy 129.54 163.83)
+			(xy 153.67 182.88) (xy 151.13 182.88)
 		)
 		(stroke
 			(width 0)
@@ -6084,7 +6449,7 @@
 	)
 	(global_label "MISO"
 		(shape input)
-		(at 129.54 146.05 0)
+		(at 151.13 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6094,7 +6459,7 @@
 		)
 		(uuid "1b5996f1-1aad-4846-ba1c-b60ef2cb78d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.1214 146.05 0)
+			(at 158.7114 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6282,7 +6647,7 @@
 	)
 	(global_label "~{CS}"
 		(shape input)
-		(at 129.54 153.67 0)
+		(at 151.13 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6292,7 +6657,7 @@
 		)
 		(uuid "673cae75-3802-4690-9d8d-48646fa98589")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.0047 153.67 0)
+			(at 156.5947 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6326,7 +6691,7 @@
 	)
 	(global_label "Led_power"
 		(shape input)
-		(at 85.09 165.1 180)
+		(at 106.68 184.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6336,7 +6701,7 @@
 		)
 		(uuid "710c2937-40ea-4898-aa5b-bfbfb507c8f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.3682 165.1 0)
+			(at 93.9582 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6392,7 +6757,7 @@
 	)
 	(global_label "3360_Reset"
 		(shape input)
-		(at 129.54 140.97 0)
+		(at 151.13 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6402,7 +6767,7 @@
 		)
 		(uuid "8ece3cde-980c-4d07-8212-df124660e9ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.5318 140.97 0)
+			(at 165.1218 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6469,6 +6834,28 @@
 		(uuid "99237352-4a96-4442-84a4-2f2ad8a62cf0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 79.8067 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Neo"
+		(shape input)
+		(at 77.47 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2c0456c-a6e9-4c61-81e6-b68a4b4b7de3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.9167 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6568,7 +6955,7 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 129.54 148.59 0)
+		(at 151.13 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6578,7 +6965,7 @@
 		)
 		(uuid "be30fdf5-baff-4bec-a38d-829ba80a7d4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.1214 148.59 0)
+			(at 158.7114 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6601,6 +6988,28 @@
 		(uuid "c1613e5a-96ae-4ef3-b384-cdb0911647de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 120.2652 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Neo"
+		(shape input)
+		(at 222.25 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c36a0759-30bc-4244-a9d3-c76d9e17ddd5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.6967 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,7 +7065,7 @@
 	)
 	(global_label "SCLK"
 		(shape input)
-		(at 129.54 151.13 0)
+		(at 151.13 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6666,7 +7075,7 @@
 		)
 		(uuid "dff9319f-3e3c-42b5-9503-414db2e00b85")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.3028 151.13 0)
+			(at 158.8928 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,7 +7087,7 @@
 	)
 	(global_label "Motion"
 		(shape input)
-		(at 129.54 158.75 0)
+		(at 151.13 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6688,7 +7097,7 @@
 		)
 		(uuid "e00fbc14-2182-46af-8341-13967ebbd4c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.7541 158.75 0)
+			(at 160.3441 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6896,6 +7305,72 @@
 			(project "Ballmouse"
 				(path "/01cc2d3e-a1a0-43bc-9d44-a2274486a992"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "gkl_power:+5V")
+		(at 130.81 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04383ac4-829a-4163-9fac-e8d93d42005e")
+		(property "Reference" "#PWR038"
+			(at 130.81 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "169f493e-da6e-49b1-855c-7443c6d3be5a")
+		)
+		(instances
+			(project "Ballmouse"
+				(path "/01cc2d3e-a1a0-43bc-9d44-a2274486a992"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -7456,6 +7931,83 @@
 		)
 	)
 	(symbol
+		(lib_name "WS2812B_1")
+		(lib_id "LED:WS2812B")
+		(at 130.81 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d875ca9-3dff-4a50-b68c-26d7a1079d82")
+		(property "Reference" "D5"
+			(at 142.24 111.6898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 142.24 114.2298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UE_LED:SK6812-E_FaceUp"
+			(at 132.08 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 133.35 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 130.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eabc9f48-4ce8-414f-958f-07b1a0b82cb7")
+		)
+		(pin "4"
+			(uuid "65bb86dd-3118-498b-8751-46039d01f1c2")
+		)
+		(pin "3"
+			(uuid "5bbcee00-822b-4709-a8d5-5eaf09c43f6f")
+		)
+		(pin "2"
+			(uuid "e1222ce2-5e2e-443c-9266-52e17d7d3b67")
+		)
+		(instances
+			(project "Ballmouse"
+				(path "/01cc2d3e-a1a0-43bc-9d44-a2274486a992"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 67.31 49.53 90)
 		(unit 1)
@@ -7880,6 +8432,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VSS")
+		(at 85.09 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d079857-c696-421a-8ea3-ffe10218a6e3")
+		(property "Reference" "#PWR035"
+			(at 85.09 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 85.09 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ceea22f-e2aa-4cdf-a6f8-157373af8b95")
+		)
+		(instances
+			(project "Ballmouse"
+				(path "/01cc2d3e-a1a0-43bc-9d44-a2274486a992"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 46.99 22.86 0)
 		(unit 1)
@@ -8011,6 +8629,83 @@
 			(project "Ballmouse"
 				(path "/01cc2d3e-a1a0-43bc-9d44-a2274486a992"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_1")
+		(lib_id "LED:WS2812B")
+		(at 85.09 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f7f0cbd-aef0-4d36-b6ed-8840be1fd97b")
+		(property "Reference" "D3"
+			(at 96.52 114.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 96.52 117.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UE_LED:SK6812-E_FaceUp"
+			(at 86.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 87.63 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 85.09 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adcae291-5f2e-403e-a966-883adcff883e")
+		)
+		(pin "4"
+			(uuid "cbe324f8-ba2a-4b5c-9f76-0a104c866f66")
+		)
+		(pin "3"
+			(uuid "ae5e6719-12a0-43b7-b6bc-4d733672bd8d")
+		)
+		(pin "2"
+			(uuid "e65a5801-fbb2-4623-a4e2-87f7f82d7845")
+		)
+		(instances
+			(project "Ballmouse"
+				(path "/01cc2d3e-a1a0-43bc-9d44-a2274486a992"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8366,7 +9061,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 93.98 134.62 0)
+		(at 115.57 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8375,7 +9070,7 @@
 		(fields_autoplaced yes)
 		(uuid "5187eff4-b01d-4f49-836c-f8c74b2f8105")
 		(property "Reference" "#PWR015"
-			(at 93.98 138.43 0)
+			(at 115.57 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8384,7 +9079,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 93.98 129.54 0)
+			(at 115.57 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8392,7 +9087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 134.62 0)
+			(at 115.57 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8401,7 +9096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 134.62 0)
+			(at 115.57 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8410,7 +9105,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 93.98 134.62 0)
+			(at 115.57 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8496,7 +9191,7 @@
 	)
 	(symbol
 		(lib_id "UE-Sensor:PMW3360DM-T2QU")
-		(at 114.3 151.13 0)
+		(at 135.89 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8505,7 +9200,7 @@
 		(fields_autoplaced yes)
 		(uuid "5541ae6d-eb13-4643-aa09-b25bc1f7e9b7")
 		(property "Reference" "U1"
-			(at 113.03 133.35 0)
+			(at 134.62 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8513,7 +9208,7 @@
 			)
 		)
 		(property "Value" "PMW3360DM-T2QU"
-			(at 113.03 135.89 0)
+			(at 134.62 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8521,7 +9216,7 @@
 			)
 		)
 		(property "Footprint" "UE_Module:PMW3360"
-			(at 114.3 151.13 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8530,7 +9225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 151.13 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8539,7 +9234,7 @@
 			)
 		)
 		(property "Description" "Optical gaming navigation sensor"
-			(at 114.3 151.13 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8549,7 +9244,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" "PixArt Imaging Inc."
-			(at 114.3 151.13 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8559,7 +9254,7 @@
 			)
 		)
 		(property "MF" "PixArt"
-			(at 114.3 151.13 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8569,7 +9264,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 114.3 151.13 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8579,7 +9274,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 114.3 151.13 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8589,7 +9284,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 114.3 151.13 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8599,7 +9294,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 114.3 151.13 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8609,7 +9304,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/PMW3360DM-T2QU/PixArt/view-part/?ref=eda"
-			(at 114.3 151.13 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8619,7 +9314,7 @@
 			)
 		)
 		(property "HEIGHT" "mm"
-			(at 114.3 151.13 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8629,7 +9324,7 @@
 			)
 		)
 		(property "MP" "PMW3360DM-T2QU"
-			(at 114.3 151.13 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8639,7 +9334,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PMW3360DM-T2QU/PixArt/view-part/?ref=snap"
-			(at 114.3 151.13 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8649,7 +9344,7 @@
 			)
 		)
 		(property "ARROW_PRICE-STOCK" ""
-			(at 114.3 151.13 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8659,7 +9354,7 @@
 			)
 		)
 		(property "ARROW_PART_NUMBER" ""
-			(at 114.3 151.13 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8669,7 +9364,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 114.3 151.13 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8679,7 +9374,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 114.3 151.13 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8689,7 +9384,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "PMW3360DM-T2QU"
-			(at 114.3 151.13 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8808,15 +9503,16 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
-		(at 60.96 153.67 180)
+		(at 107.95 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5ed00915-80eb-433f-ae96-5c360e50d22c")
-		(property "Reference" "#PWR018"
-			(at 60.96 149.86 0)
+		(fields_autoplaced yes)
+		(uuid "571d5b67-2fec-4bdc-918b-26482ab358d2")
+		(property "Reference" "#PWR037"
+			(at 107.95 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8825,7 +9521,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 60.96 158.75 90)
+			(at 107.95 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8833,7 +9529,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 153.67 0)
+			(at 107.95 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8842,7 +9538,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 153.67 0)
+			(at 107.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af2a5b99-616d-4205-b974-83ec9f638163")
+		)
+		(instances
+			(project "Ballmouse"
+				(path "/01cc2d3e-a1a0-43bc-9d44-a2274486a992"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 82.55 172.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ed00915-80eb-433f-ae96-5c360e50d22c")
+		(property "Reference" "#PWR018"
+			(at 82.55 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 82.55 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8851,7 +9612,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 60.96 153.67 0)
+			(at 82.55 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8873,7 +9634,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 60.96 148.59 0)
+		(at 82.55 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8881,7 +9642,7 @@
 		(dnp no)
 		(uuid "63062bc2-63a6-4c04-aeab-5570cc28fab5")
 		(property "Reference" "C11"
-			(at 63.5 147.3262 0)
+			(at 85.09 166.3762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8890,7 +9651,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 63.5 149.8662 0)
+			(at 85.09 168.9162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8899,7 +9660,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 60.96 148.59 0)
+			(at 82.55 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8908,7 +9669,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 148.59 0)
+			(at 82.55 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8917,7 +9678,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 60.96 148.59 0)
+			(at 82.55 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9008,7 +9769,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 81.28 133.35 0)
+		(at 102.87 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9017,7 +9778,7 @@
 		(fields_autoplaced yes)
 		(uuid "66aa18d5-a60f-42e2-b2af-85835855ed7c")
 		(property "Reference" "#PWR021"
-			(at 81.28 137.16 0)
+			(at 102.87 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9026,7 +9787,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 81.28 129.794 0)
+			(at 102.87 148.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9034,7 +9795,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 133.35 0)
+			(at 102.87 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9043,7 +9804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 133.35 0)
+			(at 102.87 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9052,7 +9813,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 133.35 0)
+			(at 102.87 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9074,7 +9835,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 93.98 151.13 0)
+		(at 115.57 170.18 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9083,7 +9844,7 @@
 		(dnp no)
 		(uuid "67f70725-c236-43b2-a064-1f7d2cc88953")
 		(property "Reference" "R1"
-			(at 96.52 149.8599 0)
+			(at 118.11 168.9099 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9092,7 +9853,7 @@
 			)
 		)
 		(property "Value" "39R"
-			(at 96.52 152.3999 0)
+			(at 118.11 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9101,7 +9862,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 93.98 151.13 0)
+			(at 115.57 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9110,7 +9871,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 151.13 0)
+			(at 115.57 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9119,7 +9880,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 93.98 151.13 0)
+			(at 115.57 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9274,6 +10035,83 @@
 		)
 	)
 	(symbol
+		(lib_name "WS2812B_1")
+		(lib_id "LED:WS2812B")
+		(at 107.95 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c9978cd-c1c7-473d-88af-a8f2b84c6f9c")
+		(property "Reference" "D4"
+			(at 119.38 114.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 119.38 117.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UE_LED:SK6812-E_FaceUp"
+			(at 109.22 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 110.49 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 107.95 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb5dbc01-f929-4eb3-a9f1-83a0fa333a35")
+		)
+		(pin "4"
+			(uuid "1c2c93ff-c758-40d9-a470-255d323d0056")
+		)
+		(pin "3"
+			(uuid "90f6605a-9c7b-4f6f-a1d2-f562bd9cd87a")
+		)
+		(pin "2"
+			(uuid "67829fd7-5e3b-4245-a9c6-aeeb49c3578b")
+		)
+		(instances
+			(project "Ballmouse"
+				(path "/01cc2d3e-a1a0-43bc-9d44-a2274486a992"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VSS")
 		(at 156.21 44.45 180)
 		(unit 1)
@@ -9334,6 +10172,72 @@
 			(project "Ballmouse"
 				(path "/01cc2d3e-a1a0-43bc-9d44-a2274486a992"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "gkl_power:+5V")
+		(at 153.67 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "879ff8e1-077b-48b5-9f75-4f79c0b96ab4")
+		(property "Reference" "#PWR040"
+			(at 153.67 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 153.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e31fbba-5961-4377-b7b3-dbac48e05f81")
+		)
+		(instances
+			(project "Ballmouse"
+				(path "/01cc2d3e-a1a0-43bc-9d44-a2274486a992"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9473,7 +10377,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 88.9 134.62 0)
+		(at 110.49 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9482,7 +10386,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f13759c-3694-4c6a-8376-e43f2d2d39e1")
 		(property "Reference" "#PWR016"
-			(at 88.9 138.43 0)
+			(at 110.49 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9491,7 +10395,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 88.9 129.54 0)
+			(at 110.49 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9499,7 +10403,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 134.62 0)
+			(at 110.49 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9508,7 +10412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 134.62 0)
+			(at 110.49 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9517,7 +10421,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 88.9 134.62 0)
+			(at 110.49 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9956,6 +10860,72 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
+		(at 153.67 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a17af1a4-af89-4edb-8358-a2e7eece6e9c")
+		(property "Reference" "#PWR041"
+			(at 153.67 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 153.67 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49bf8419-6559-4d10-b33a-5ee60397eeb3")
+		)
+		(instances
+			(project "Ballmouse"
+				(path "/01cc2d3e-a1a0-43bc-9d44-a2274486a992"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
 		(at 71.12 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10352,7 +11322,7 @@
 	(symbol
 		(lib_name "PMOS_1")
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 87.63 156.21 90)
+		(at 109.22 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10361,7 +11331,7 @@
 		(fields_autoplaced yes)
 		(uuid "b217c8f3-d2ab-46a8-b667-34bffe4d94dd")
 		(property "Reference" "Q1"
-			(at 87.63 147.32 90)
+			(at 109.22 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10369,7 +11339,7 @@
 			)
 		)
 		(property "Value" "PMOS"
-			(at 87.63 149.86 90)
+			(at 109.22 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10377,7 +11347,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 85.09 151.13 0)
+			(at 106.68 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10386,7 +11356,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 100.33 156.21 0)
+			(at 121.92 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10395,7 +11365,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 87.63 156.21 0)
+			(at 109.22 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10404,7 +11374,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 104.775 156.21 0)
+			(at 126.365 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10413,7 +11383,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 106.68 156.21 0)
+			(at 128.27 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10422,7 +11392,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 102.87 156.21 0)
+			(at 124.46 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10650,7 +11620,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 71.12 148.59 0)
+		(at 92.71 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10659,7 +11629,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb6b2956-e4fd-4869-be59-af54301ce1f4")
 		(property "Reference" "C12"
-			(at 73.66 147.3262 0)
+			(at 95.25 166.3762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10668,7 +11638,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 73.66 149.8662 0)
+			(at 95.25 168.9162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10677,7 +11647,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 71.12 148.59 0)
+			(at 92.71 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10686,7 +11656,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 148.59 0)
+			(at 92.71 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10695,7 +11665,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 71.12 148.59 0)
+			(at 92.71 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10713,6 +11683,72 @@
 			(project "Ballmouse"
 				(path "/01cc2d3e-a1a0-43bc-9d44-a2274486a992"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "gkl_power:+5V")
+		(at 85.09 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbf17113-0151-4a06-a9ad-d1ba2df87087")
+		(property "Reference" "#PWR034"
+			(at 85.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd67dc97-4e91-42fd-80b9-01f21d3def58")
+		)
+		(instances
+			(project "Ballmouse"
+				(path "/01cc2d3e-a1a0-43bc-9d44-a2274486a992"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10996,6 +12032,72 @@
 		)
 	)
 	(symbol
+		(lib_id "gkl_power:+5V")
+		(at 107.95 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2c7d83a-4c3c-4574-a4ad-f80059be7ce1")
+		(property "Reference" "#PWR036"
+			(at 107.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 107.95 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2578c87f-16a3-485d-88b8-0dcc6b7ebd9c")
+		)
+		(instances
+			(project "Ballmouse"
+				(path "/01cc2d3e-a1a0-43bc-9d44-a2274486a992"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 123.19 74.93 0)
 		(unit 1)
@@ -11065,7 +12167,7 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
-		(at 132.08 166.37 180)
+		(at 153.67 185.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11073,7 +12175,7 @@
 		(dnp no)
 		(uuid "d9f45360-2e1c-4d4a-bbc4-9a07ab58db92")
 		(property "Reference" "#PWR019"
-			(at 132.08 162.56 0)
+			(at 153.67 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11082,7 +12184,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 132.08 171.45 90)
+			(at 153.67 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11090,7 +12192,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 166.37 0)
+			(at 153.67 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11099,7 +12201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 166.37 0)
+			(at 153.67 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11108,7 +12210,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 132.08 166.37 0)
+			(at 153.67 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11395,7 +12497,7 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
-		(at 71.12 153.67 180)
+		(at 92.71 172.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11403,7 +12505,7 @@
 		(dnp no)
 		(uuid "eab50870-f50f-4d33-b7c3-9a766e68f8b3")
 		(property "Reference" "#PWR017"
-			(at 71.12 149.86 0)
+			(at 92.71 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11412,7 +12514,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 71.12 158.75 90)
+			(at 92.71 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11420,7 +12522,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 153.67 0)
+			(at 92.71 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11429,7 +12531,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 153.67 0)
+			(at 92.71 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11438,7 +12540,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 71.12 153.67 0)
+			(at 92.71 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11681,6 +12783,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VSS")
+		(at 130.81 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efca0854-2a30-4e43-b131-ea7a8c62b497")
+		(property "Reference" "#PWR039"
+			(at 130.81 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 130.81 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25f4eeef-c11c-4be2-b301-6cccda9d5bfd")
+		)
+		(instances
+			(project "Ballmouse"
+				(path "/01cc2d3e-a1a0-43bc-9d44-a2274486a992"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BadgePiratesSymbolLibrary:USB_C_Plug_USB2.0")
 		(at 29.21 40.64 0)
 		(unit 1)
@@ -11858,6 +13026,83 @@
 			(project "Ballmouse"
 				(path "/01cc2d3e-a1a0-43bc-9d44-a2274486a992"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_1")
+		(lib_id "LED:WS2812B")
+		(at 153.67 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9aae2c7-26c4-4e41-9c00-60781f8a31ef")
+		(property "Reference" "D6"
+			(at 165.1 111.6898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 165.1 114.2298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UE_LED:SK6812-E_FaceUp"
+			(at 154.94 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 156.21 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 153.67 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "280ecb74-05dd-4aa2-95ab-69ad48d741b8")
+		)
+		(pin "4"
+			(uuid "3e7ed754-be60-45a8-8097-6777641105b9")
+		)
+		(pin "3"
+			(uuid "a6f0fba3-c439-476a-a315-beda0e6dc0de")
+		)
+		(pin "2"
+			(uuid "d3156a01-8303-4cfe-8384-e0f9f9a506ab")
+		)
+		(instances
+			(project "Ballmouse"
+				(path "/01cc2d3e-a1a0-43bc-9d44-a2274486a992"
+					(reference "D6")
 					(unit 1)
 				)
 			)
